@@ -15,6 +15,13 @@
 		090220E31F9EE50200FFDFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090220E21F9EE50200FFDFC6 /* main.m */; };
 		090220ED1F9EE50200FFDFC6 /* HVTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090220EC1F9EE50200FFDFC6 /* HVTableViewDemoTests.m */; };
 		090220F81F9EE50200FFDFC6 /* HVTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090220F71F9EE50200FFDFC6 /* HVTableViewDemoUITests.m */; };
+		090221081F9EE75E00FFDFC6 /* TWHVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090221071F9EE75E00FFDFC6 /* TWHVTableView.m */; };
+		090221441F9F420B00FFDFC6 /* TWLeftHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090221431F9F420B00FFDFC6 /* TWLeftHeadView.xib */; };
+		090221461F9F42A400FFDFC6 /* TWRightHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090221451F9F42A400FFDFC6 /* TWRightHeadView.xib */; };
+		0902214D1F9F435500FFDFC6 /* TWLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902214B1F9F435500FFDFC6 /* TWLeftTableViewCell.m */; };
+		0902214E1F9F435500FFDFC6 /* TWLeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0902214C1F9F435500FFDFC6 /* TWLeftTableViewCell.xib */; };
+		090221521F9F43FD00FFDFC6 /* TWRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090221501F9F43FD00FFDFC6 /* TWRightTableViewCell.m */; };
+		090221531F9F43FD00FFDFC6 /* TWRightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090221511F9F43FD00FFDFC6 /* TWRightTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		090220F31F9EE50200FFDFC6 /* HVTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090220F71F9EE50200FFDFC6 /* HVTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVTableViewDemoUITests.m; sourceTree = "<group>"; };
 		090220F91F9EE50200FFDFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090221061F9EE75E00FFDFC6 /* TWHVTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWHVTableView.h; sourceTree = "<group>"; };
+		090221071F9EE75E00FFDFC6 /* TWHVTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWHVTableView.m; sourceTree = "<group>"; };
+		090221431F9F420B00FFDFC6 /* TWLeftHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWLeftHeadView.xib; sourceTree = "<group>"; };
+		090221451F9F42A400FFDFC6 /* TWRightHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWRightHeadView.xib; sourceTree = "<group>"; };
+		0902214A1F9F435500FFDFC6 /* TWLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLeftTableViewCell.h; sourceTree = "<group>"; };
+		0902214B1F9F435500FFDFC6 /* TWLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLeftTableViewCell.m; sourceTree = "<group>"; };
+		0902214C1F9F435500FFDFC6 /* TWLeftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWLeftTableViewCell.xib; sourceTree = "<group>"; };
+		0902214F1F9F43FD00FFDFC6 /* TWRightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWRightTableViewCell.h; sourceTree = "<group>"; };
+		090221501F9F43FD00FFDFC6 /* TWRightTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWRightTableViewCell.m; sourceTree = "<group>"; };
+		090221511F9F43FD00FFDFC6 /* TWRightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWRightTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,8 @@
 		090220D21F9EE50200FFDFC6 /* HVTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				090221421F9F41E300FFDFC6 /* TestView */,
+				090221051F9EE71000FFDFC6 /* HVTableView */,
 				090220D31F9EE50200FFDFC6 /* AppDelegate.h */,
 				090220D41F9EE50200FFDFC6 /* AppDelegate.m */,
 				090220D61F9EE50200FFDFC6 /* ViewController.h */,
@@ -130,6 +149,30 @@
 				090220F91F9EE50200FFDFC6 /* Info.plist */,
 			);
 			path = HVTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		090221051F9EE71000FFDFC6 /* HVTableView */ = {
+			isa = PBXGroup;
+			children = (
+				090221061F9EE75E00FFDFC6 /* TWHVTableView.h */,
+				090221071F9EE75E00FFDFC6 /* TWHVTableView.m */,
+			);
+			path = HVTableView;
+			sourceTree = "<group>";
+		};
+		090221421F9F41E300FFDFC6 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				090221431F9F420B00FFDFC6 /* TWLeftHeadView.xib */,
+				090221451F9F42A400FFDFC6 /* TWRightHeadView.xib */,
+				0902214A1F9F435500FFDFC6 /* TWLeftTableViewCell.h */,
+				0902214B1F9F435500FFDFC6 /* TWLeftTableViewCell.m */,
+				0902214C1F9F435500FFDFC6 /* TWLeftTableViewCell.xib */,
+				0902214F1F9F43FD00FFDFC6 /* TWRightTableViewCell.h */,
+				090221501F9F43FD00FFDFC6 /* TWRightTableViewCell.m */,
+				090221511F9F43FD00FFDFC6 /* TWRightTableViewCell.xib */,
+			);
+			path = TestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +237,7 @@
 		090220C81F9EE50200FFDFC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TW;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = tw;
 				TargetAttributes = {
@@ -240,7 +284,11 @@
 			files = (
 				090220E01F9EE50200FFDFC6 /* LaunchScreen.storyboard in Resources */,
 				090220DD1F9EE50200FFDFC6 /* Assets.xcassets in Resources */,
+				090221531F9F43FD00FFDFC6 /* TWRightTableViewCell.xib in Resources */,
+				090221441F9F420B00FFDFC6 /* TWLeftHeadView.xib in Resources */,
 				090220DB1F9EE50200FFDFC6 /* Main.storyboard in Resources */,
+				090221461F9F42A400FFDFC6 /* TWRightHeadView.xib in Resources */,
+				0902214E1F9F435500FFDFC6 /* TWLeftTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				090220D81F9EE50200FFDFC6 /* ViewController.m in Sources */,
+				090221521F9F43FD00FFDFC6 /* TWRightTableViewCell.m in Sources */,
 				090220E31F9EE50200FFDFC6 /* main.m in Sources */,
+				090221081F9EE75E00FFDFC6 /* TWHVTableView.m in Sources */,
+				0902214D1F9F435500FFDFC6 /* TWLeftTableViewCell.m in Sources */,
 				090220D51F9EE50200FFDFC6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,10 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HVTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tw.HVTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,10 +497,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HVTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tw.HVTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="编码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XN6-JR-wGs">
+                    <rect key="frame" x="0.0" y="0.0" width="209.5" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-sH-AZw">
+                    <rect key="frame" x="209.5" y="0.0" width="209.5" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XN6-JR-wGs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9IN-Cx-n4j"/>
+                <constraint firstItem="fTd-sH-AZw" firstAttribute="leading" secondItem="XN6-JR-wGs" secondAttribute="trailing" id="F5L-iZ-ibC"/>
+                <constraint firstAttribute="bottom" secondItem="fTd-sH-AZw" secondAttribute="bottom" id="Tfq-hs-mCv"/>
+                <constraint firstItem="fTd-sH-AZw" firstAttribute="leading" secondItem="XN6-JR-wGs" secondAttribute="trailing" id="YBN-cB-ImO"/>
+                <constraint firstAttribute="trailing" secondItem="fTd-sH-AZw" secondAttribute="trailing" id="Zpx-fn-WRl"/>
+                <constraint firstItem="fTd-sH-AZw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aZW-qU-xbh"/>
+                <constraint firstAttribute="bottom" secondItem="XN6-JR-wGs" secondAttribute="bottom" id="sTe-79-TFY"/>
+                <constraint firstItem="fTd-sH-AZw" firstAttribute="width" secondItem="XN6-JR-wGs" secondAttribute="width" id="tmU-b6-K4a"/>
+                <constraint firstItem="XN6-JR-wGs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="y1f-uo-4nc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-231.5" y="-357.5"/>
+        </view>
+    </objects>
+</document>

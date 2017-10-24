@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="73"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhQ-yY-aaq">
+                    <rect key="frame" x="0.0" y="0.0" width="107.5" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XX2-lz-pTR">
+                    <rect key="frame" x="107.5" y="0.0" width="107.5" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSk-0U-DG3">
+                    <rect key="frame" x="215" y="0.0" width="107.5" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czO-81-gNq">
+                    <rect key="frame" x="322.5" y="0.0" width="107.5" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="czO-81-gNq" firstAttribute="leading" secondItem="BSk-0U-DG3" secondAttribute="trailing" id="4Ji-TE-3Xv"/>
+                <constraint firstItem="XX2-lz-pTR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6zS-Ed-thy"/>
+                <constraint firstItem="BSk-0U-DG3" firstAttribute="width" secondItem="dhQ-yY-aaq" secondAttribute="width" id="85h-og-jk2"/>
+                <constraint firstItem="BSk-0U-DG3" firstAttribute="leading" secondItem="XX2-lz-pTR" secondAttribute="trailing" id="8WG-fK-tWP"/>
+                <constraint firstAttribute="trailing" secondItem="czO-81-gNq" secondAttribute="trailing" id="Aph-G8-hWl"/>
+                <constraint firstAttribute="bottom" secondItem="czO-81-gNq" secondAttribute="bottom" id="BHp-tS-xZp"/>
+                <constraint firstItem="dhQ-yY-aaq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JAb-eH-b9o"/>
+                <constraint firstItem="BSk-0U-DG3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MSl-bN-ZuF"/>
+                <constraint firstItem="czO-81-gNq" firstAttribute="leading" secondItem="BSk-0U-DG3" secondAttribute="trailing" id="Mzo-z2-Kxb"/>
+                <constraint firstItem="BSk-0U-DG3" firstAttribute="leading" secondItem="XX2-lz-pTR" secondAttribute="trailing" id="Nar-aK-NQG"/>
+                <constraint firstItem="XX2-lz-pTR" firstAttribute="leading" secondItem="dhQ-yY-aaq" secondAttribute="trailing" id="U6c-v4-6Ad"/>
+                <constraint firstAttribute="bottom" secondItem="XX2-lz-pTR" secondAttribute="bottom" id="XAz-qk-N5W"/>
+                <constraint firstAttribute="bottom" secondItem="BSk-0U-DG3" secondAttribute="bottom" id="Zf0-wQ-PRW"/>
+                <constraint firstAttribute="bottom" secondItem="dhQ-yY-aaq" secondAttribute="bottom" id="dxd-24-qY4"/>
+                <constraint firstItem="czO-81-gNq" firstAttribute="width" secondItem="dhQ-yY-aaq" secondAttribute="width" id="oas-Jm-A3w"/>
+                <constraint firstItem="czO-81-gNq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="onY-8V-wBa"/>
+                <constraint firstItem="XX2-lz-pTR" firstAttribute="width" secondItem="dhQ-yY-aaq" secondAttribute="width" id="qS0-b8-IAp"/>
+                <constraint firstItem="XX2-lz-pTR" firstAttribute="leading" secondItem="dhQ-yY-aaq" secondAttribute="trailing" id="r6C-wB-Vcf"/>
+                <constraint firstItem="dhQ-yY-aaq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xQx-HW-mBw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="60" y="-195.5"/>
+        </view>
+    </objects>
+</document>
