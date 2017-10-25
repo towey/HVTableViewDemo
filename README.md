@@ -1,10 +1,9 @@
 # HVTableViewDemo
-### 横竖滑动列表
+## 横竖滑动列表
 ### 效果
-<br/>
 ![image](https://github.com/towey/HVTableViewDemo/blob/master/gif/hvTableView.gif)
-<br/><br/>
-### 集成说明：
+<br/>
+### 使用说明：
 1、将HVTableView文件夹拖到项目中，并添加头文件 TWHVTableView.h
 <br/>
 2、创建HVTableView设置相应的属性，最主要是数据源和代理
