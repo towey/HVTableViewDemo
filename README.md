@@ -10,7 +10,7 @@
 2、创建HVTableView设置相应的属性，最主要是数据源和代理
 <br/>
 3、实现以下数据源和代理相应方法，具体使用可以参照demo
-<br/>
+
 ```objc
 //列表的组数
 - (NSInteger)numberOfSectionsInTWHVTableView:(TWHVTableView *)hvTableView;
